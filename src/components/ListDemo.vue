@@ -211,20 +211,20 @@ export default {
       this.product = product
       this.edit_show = true
     },
-    editable() {
-      this.edit_show = false
-      this.edit_title = ''
-      this.edit_description = ''
-      axios
-          .put('http://localhost:3000/quotes', this.quotes.id, {
-            title: this.quotes.title,
-            description: this.quotes.description
-          })
-          .then(() => {
-            this.quotes.title = this.edit_title
-            this.quotes.description = this.edit_description
-          })
-    }
+    // editable() {
+    //   this.edit_show = false
+    //   this.edit_title = ''
+    //   this.edit_description = ''
+    //   axios
+    //       .put('http://localhost:3000/quotes', this.quotes.id, {
+    //         title: this.quotes.title,
+    //         description: this.quotes.description
+    //       })
+    //       .then(() => {
+    //         this.quotes.title = this.edit_title
+    //         this.quotes.description = this.edit_description
+    //       })
+    // }
   }
 }
 </script>
