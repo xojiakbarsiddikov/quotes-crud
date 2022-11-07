@@ -1,0 +1,36 @@
+{
+  "quotes": [
+    {
+      "avtor": "Ilon Mask",
+      "title": "Bamboo Watch",
+      "description": "Product Description",
+      "price": "65",
+      "data": "07.11.2022, 11:30:31",
+      "id": 1
+    },
+    {
+      "avtor": "Jordan",
+      "title": "Black Watch",
+      "description": "Product Description",
+      "price": "72",
+      "data": "07.11.2022, 13:49:11",
+      "id": 2
+    },
+    {
+      "avtor": "Tayson",
+      "title": "Blue Band",
+      "description": "Product Description",
+      "price": "79",
+      "data": "07.11.2022, 19:28:16",
+      "id": 3
+    },
+    {
+      "avtor": "Ronaldo",
+      "title": "Blue T-Shirt",
+      "description": "Product Description",
+      "price": "29",
+      "data": "07.11.2022, 12:32:39",
+      "id": 4
+    }
+  ]
+}
