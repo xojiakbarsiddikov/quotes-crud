@@ -165,7 +165,7 @@ export default {
             window.location.reload()
           })
           .catch(err=> (console.log(err)))
-      this.products.splice(index, 1)
+      this.quotes.splice(index, 1)
     },
     onSortChange(event) {
       const value = event.value.value;
